@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+config/*.json
+tests
+test-results
+playwright-report
+coverage
+*.test.js
+vitest.config.js
+playwright.config.js

@@ -1,0 +1,18 @@
+node_modules/
+
+# Local secrets + user data — NIE in git
+.env
+.env.deploy
+config/*.json
+!config/.gitkeep
+
+# Test-Artefakte
+tests/.test-config-dir.tmp
+test-results/
+playwright-report/
+coverage/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/

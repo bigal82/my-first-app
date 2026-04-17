@@ -27,6 +27,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+app/.env
+app/config/tado-tokens.json
+app/config/tado-last-response.json
+app/config/integrations.json
 
 # vercel
 .vercel
